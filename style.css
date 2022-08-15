@@ -1,0 +1,65 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.get_information {
+    background-color: rgba(0, 102, 255, 0.479);
+    width: 29%;
+    margin-right: 1%;
+    border-radius: 10px;
+    height: 285px;
+}
+
+.get_information * {
+    margin: 1%;
+    margin-left: 10%;
+}
+
+.get_information p:first-child {
+    margin-top: 3%;
+}
+
+.books {
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.534);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    background-color: rgba(250, 235, 215, 0.952);
+    width: 31%;
+    margin: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.book_readed {
+    background-color: rgb(248, 219, 139);
+    width: 31%;
+    margin: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:750px) {
+    .get_information {
+        width: 100%;
+        margin: 3%
+    }
+    .books {
+        width: 100%;
+    }
+    .book {
+        width: 48%;
+    }
+}

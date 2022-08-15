@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Library</h1>
+    <div class="get_information">
+    <p>Nombre</p>
+    <input type="text" id="libro_nombre" placeholder="Nombre del libro">
+    <p>Autor</p>
+    <input type="text" id="libro_autor" placeholder="Nombre del autor">
+    <p>Numero de paginas</p>
+    <input type="number" id="libro_paginas" placeholder="Numero de paginas">
+    <p>¿Se ha leido?</p>
+    <input type="checkbox" name="leer" id="libro_leido">
+    <br>
+    <button onclick="crearlibro()">Añadir libro</button>
+    </div>
+
+    <div class="books" id="books"></div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
